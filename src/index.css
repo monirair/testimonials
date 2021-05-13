@@ -231,7 +231,7 @@ img {
 
 .media-img {
   position: relative;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .quote-icon {
@@ -240,19 +240,21 @@ img {
   background: #72c02c;
   top: -20px;
   left: 0;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   display: grid;
   place-items: center;
+  -webkit-transform: translateY(25%);
   transform: translateY(25%);
   color: #fff;
+  font-size: 0.75rem;
 }
 
 .media img {
-  height: 80px;
-  width: 80px !important;
+  height: auto;
+  width: 60px !important;
   border-radius: 50%;
-  margin-right: 1rem !important;
+  margin-right: 0.5rem !important;
   -ms-flex-item-align: center !important;
   align-self: center !important;
   display: flex;
@@ -267,7 +269,7 @@ img {
 
 .media-body h4 {
   color: #000 !important;
-  font-size: 1.25rem !important;
+  font-size: 1rem !important;
   font-weight: 500 !important;
   text-transform: uppercase;
   letter-spacing: 1px;
